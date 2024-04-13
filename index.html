@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws for a Moment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Paws for a Moment</h1>
+    <p>"Paws for a Moment is a compassionate online sanctuary dedicated to connecting animal lovers with their perfect furry companions. Our platform serves as a heartfelt bridge, facilitating meaningful adoptions while championing responsible pet ownership and animal welfare. With a mission to create lasting bonds and enrich lives, Paws for a Moment offers a haven where tails wag, purrs resonate, and hearts unite in the shared love for our beloved four-legged friends."</p>
+    <a href="" class="btn">Visit Us To Know More</a>
+</div>
+    </section>
+
+    <!--Pets-->
+    <section class="furbaby">
+        <h1>Fur-babies We Offer</h1>
+        <p>Whether you're looking for a playful puppy, a cuddly kitten, or a loyal senior pet, there's a perfect match waiting for you. <br>Adopting a pet not only enriches your life but also saves a life by providing a home to an animal in need.</p>
+
+        <div class="row">
+            <div class="furbaby-col">
+                <h3>DOGS & PUPPIES</h3>
+                <p>Adopting a dog or puppy is a deeply rewarding experience that not only enriches your own life but also saves the life of a deserving animal in need. </p>
+            </div>
+            <div class="furbaby-col">
+                <h3>CATS & KITTENS</h3>
+                <p>Adopting a cat or kitten is a heartwarming and fulfilling decision that brings joy to your life while providing a loving home to a deserving feline companion.</p>
+            </div>
+            <div class="furbaby-col">
+                <h3>RABBITS & BUNNIES</h3>
+                <p>Adopting a rabbit or bunny is a compassionate and rewarding choice that brings joy into your life while providing a loving home to a delightful and often misunderstood pet</p>
+            </div>
+        </div>
+    </section>
+
+    <section class=""></section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() 
+        {
+            navLinks.style.right="0";
+        }
+
+        function hideMenu() 
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
